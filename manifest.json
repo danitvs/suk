@@ -257,6 +257,6 @@
       "formats": ["mp4", "m3u8"],
       "logo": "https://i.postimg.cc/L64M3bYV/netmirror.png",
       "contentLanguage": ["en"]
-    },
+    }
    ]
 }
