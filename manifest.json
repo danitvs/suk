@@ -46,7 +46,7 @@
       "filename": "providers/hackstore.js",
       "enabled": true,
       "contentLanguage": ["es"]
-    }
+    },
     {
       "id": "verpelis",
       "name": "VerPelis",
