@@ -1,7 +1,6 @@
 {
-  "name": "Latino-Nuvio",
+  "name": "danitvs",
   "version": "2.0.0",
-  "description": "Proveedores para Nuvio.",
   "scrapers": [
    {
       "id": "cinecalidad",
