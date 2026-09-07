@@ -3,7 +3,93 @@
   "version": "2.0.0",
   "description": "Proveedores para Nuvio.",
   "scrapers": [
- {
+  
+    {
+      "id": "verpelis",
+      "name": "VerPelis",
+      "description": "Películas y series actuales en español latino e inglés de verpelis.gratis.",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/verpelis.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "logo": "https://verpelis.gratis/favicon.ico"
+    },
+    {
+      "id": "areshd",
+      "name": "AresHD",
+      "description": "Películas y series en HD con múltiples idiomas desde AresHD.com.",
+      "version": "1.1.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/areshd.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "logo": "https://areshd.com/favicon.ico"
+    },
+    {
+      "id": "animeav1",
+      "name": "AnimeAV1",
+      "description": "Portal de anime especializado con encode moderno y gran velocidad.",
+      "version": "1.0.0",
+      "author": "latinokodi",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/animeav1.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "logo": "https://animeav1.com/favicon.ico"
+    },
+    {
+      "id": "allpeliculasse",
+      "name": "AllpeliculasSE",
+      "description": "Películas y series en Latino, Castellano y VOSE desde Allpeliculas.",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/allpeliculasse.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "logo": "https://allpeliculas.la/favicon.ico"
+    },
+    {
+      "id": "elifilms",
+      "name": "EliFilms",
+      "description": "Películas y series en Latino, Castellano y VOSE desde AllCalidad.re (EliFilms).",
+      "version": "1.0.0",
+      "author": "custom-latino",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/elifilms.js",
+      "enabled": true,
+      "contentLanguage": [
+        "es"
+      ],
+      "logo": "https://allcalidad.re/favicon.ico"
+    },
+    {
       "id": "pelisplushd",
       "name": "PelisPlusHD",
       "description": "Películas y series desde PelisPlusHD.",
