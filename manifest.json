@@ -3,7 +3,50 @@
   "version": "2.0.0",
   "description": "Proveedores para Nuvio.",
   "scrapers": [
-  
+   {
+      "id": "cinecalidad",
+      "name": "CineCalidad",
+      "description": "Películas en Latino desde CineCalidad. Vimeos, VOE, StreamWish.",
+      "version": "2.0.0",
+      "author": "KennethJYS",
+      "supportedTypes": ["movie"],
+      "filename": "providers/cinecalidad.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "embed69",
+      "name": "Embed69",
+      "description": "Streams en Latino/Español/Subtitulado desde Embed69. StreamWish, VOE.",
+      "version": "2.0.0",
+      "author": "KennethJYS",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/embed69.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+     {
+      "id": "lamovie",
+      "name": "LaMovie",
+      "description": "Streams en Latino desde LaMovie.",
+      "version": "2.0.0",
+      "author": "KennethJYS",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/lamovie.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    },
+    {
+      "id": "hackstore",
+      "name": "HackStore",
+      "description": "Streams en Latino desde HackStore.",
+      "version": "2.0.0",
+      "author": "KennethJYS",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/hackstore.js",
+      "enabled": true,
+      "contentLanguage": ["es"]
+    }
     {
       "id": "verpelis",
       "name": "VerPelis",
