@@ -1,9 +1,90 @@
+{
+  "name": "Latino-Nuvio",
+  "version": "2.0.0",
+  "description": "Proveedores para Nuvio.",
+  "scrapers": [
+ {
+      "id": "pelisplushd",
+      "name": "PelisPlusHD",
+      "description": "Películas y series desde PelisPlusHD.",
+      "version": "1.0.0",
+      "author": "danitvs",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/pelisplushd.js",
+      "enabled": true,
+      "logo": "https://pelisplushd.bz/images/logo/favicon.png",
+      "contentLanguage": [
+        "es",
+        "lat"
+      ],
+      "formats": [
+        "hls",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "latanime",
+      "name": "Latanime",
+      "description": "Películas y series de anime desde Latanime.",
+      "version": "1.0.0",
+      "author": "danitvs",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/latanime.js",
+      "enabled": true,
+      "logo": "https://latanime.org/img/logito.png",
+      "contentLanguage": [
+        "es",
+        "lat"
+      ],
+      "formats": [
+        "mp4",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "sololatino",
+      "name": "SoloLatino",
+      "description": "Películas y series desde SoloLatino.",
+      "version": "1.0.0",
+      "author": "danitvs",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/sololatino.js",
+      "enabled": true,
+      "logo": "https://sololatino.net/favicon.ico",
+      "contentLanguage": [
+        "es",
+        "lat"
+      ],
+      "formats": [
+        "hls",
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    }
+   
  {
       "id": "nuvio-embed69",
       "name": "Embed69",
       "description": "Movies & Series in English & Spanish (~5s)",
       "version": "1.0",
-      "author": "KennethJYS",
+      "author": "danitvs",
       "supportedTypes": ["movie", "tv"],
       "filename": "providers/embed69.js",
       "enabled": true,
@@ -16,7 +97,7 @@
       "name": "SeriesKao",
       "description": "Películas y series en español latino desde serieskao.top (~7s)",
       "version": "1.1",
-      "author": "Nuvio Team",
+      "author": "danitvs",
       "supportedTypes": ["movie", "tv"],
       "filename": "providers/serieskao.js",
       "enabled": true,
@@ -29,7 +110,7 @@
       "name": "LACartoons",
       "description": "Series y caricaturas clásicas en español latino desde lacartoons.com (~6s)",
       "version": "1.1",
-      "author": "Nuvio Team",
+      "author": "danitvs",
       "supportedTypes": ["tv"],
       "filename": "providers/lacartoons.js",
       "enabled": true,
@@ -37,3 +118,5 @@
       "logo": "https://www.google.com/s2/favicons?domain=lacartoons.com&sz=180",
       "contentLanguage": ["es"]
     },
+   ]
+}
