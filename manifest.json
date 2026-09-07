@@ -14,14 +14,14 @@
       "enabled": true,
       "contentLanguage": ["es"]
     },
-    {
+   {
       "id": "embed69",
-      "name": "Embed69",
+      "name": "Embed699",
       "description": "Streams en Latino/Español/Subtitulado desde Embed69. StreamWish, VOE.",
       "version": "2.0.0",
       "author": "KennethJYS",
       "supportedTypes": ["movie", "tv"],
-      "filename": "providers/embed69.js",
+      "filename": "providers/embed699.js",
       "enabled": true,
       "contentLanguage": ["es"]
     },
