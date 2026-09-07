@@ -2,7 +2,7 @@
   "name": "danitvs",
   "version": "2.0.0",
   "scrapers": [
-   {
+    {
       "id": "cinecalidad",
       "name": "CineCalidad",
       "description": "Películas en Latino desde CineCalidad. Vimeos, VOE, StreamWish.",
@@ -13,7 +13,7 @@
       "enabled": true,
       "contentLanguage": ["es"]
     },
-   {
+    {
       "id": "embed69",
       "name": "Embed699",
       "description": "Streams en Latino/Español/Subtitulado desde Embed69. StreamWish, VOE.",
@@ -24,7 +24,7 @@
       "enabled": true,
       "contentLanguage": ["es"]
     },
-     {
+    {
       "id": "lamovie",
       "name": "LaMovie",
       "description": "Streams en Latino desde LaMovie.",
@@ -205,9 +205,8 @@
       "limited": false,
       "disabledPlatforms": [],
       "supportsExternalPlayer": true
-    }
-   
- {
+    }, 
+    {
       "id": "nuvio-embed69",
       "name": "Embed69",
       "description": "Movies & Series in English & Spanish (~5s)",
@@ -220,7 +219,7 @@
       "logo": "https://i.postimg.cc/SK9YMsHG/embed69.png",
       "contentLanguage": ["en", "es"]
     },
- {
+    {
       "id": "nuvio-serieskao",
       "name": "SeriesKao",
       "description": "Películas y series en español latino desde serieskao.top (~7s)",
@@ -232,8 +231,8 @@
       "formats": ["mp4", "m3u8"],
       "logo": "https://www.google.com/s2/favicons?domain=serieskao.top&sz=180",
       "contentLanguage": ["es"]
-    }
- {
+    },
+    {
       "id": "nuvio-lacartoons",
       "name": "LACartoons",
       "description": "Series y caricaturas clásicas en español latino desde lacartoons.com (~6s)",
