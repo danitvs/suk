@@ -80,23 +80,7 @@
       ],
       "logo": "https://areshd.com/favicon.ico"
     },
-    {
-      "id": "animeav1",
-      "name": "AnimeAV1",
-      "description": "Portal de anime especializado con encode moderno y gran velocidad.",
-      "version": "1.0.0",
-      "author": "latinokodi",
-      "supportedTypes": [
-        "movie",
-        "tv"
-      ],
-      "filename": "providers/animeav1.js",
-      "enabled": true,
-      "contentLanguage": [
-        "es"
-      ],
-      "logo": "https://animeav1.com/favicon.ico"
-    },
+   
     {
       "id": "allpeliculasse",
       "name": "AllpeliculasSE",
